@@ -7,7 +7,7 @@
 function getFormattedOffset(offset) {
     let offsetParts = offset.split(':');
 
-    return parseFloat( (offsetParts[0] * 60) + offsetParts[1] );
+    return ( parseFloat(offsetParts[0]) * 60 ) + parseFloat(offsetParts[1]);
 }
 
 /**
